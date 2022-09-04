@@ -1,4 +1,4 @@
-import { isNonEmpty } from 'nonEmpty/isNonEmpty';
+import { isNonEmpty } from '../nonEmpty/isNonEmpty';
 
 /**
  * Checks whether `value` is coercible to `number`.

@@ -4,7 +4,10 @@
   "license": "MIT",
   "description": "Smol TS lib",
   "homepage": "https://github.com/yohgen/sutures",
-  "repository": "github:yohgen/sutures",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yohgen/sutures.git"
+  },
   "author": {
     "name": "Jørgen Tau",
     "email": "jorgentau@gmail.com",

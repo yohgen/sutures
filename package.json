@@ -2,9 +2,9 @@
   "name": "sutures",
   "version": "0.0.1",
   "license": "MIT",
-  "description": "TypeScript utilities too specific for general utility libraries",
-  "homepage": "",
-  "repository": "",
+  "description": "Smol TS lib",
+  "homepage": "https://github.com/yohgen/sutures",
+  "repository": "github:yohgen/sutures",
   "author": {
     "name": "Jørgen Tau",
     "email": "jorgentau@gmail.com",
@@ -13,8 +13,11 @@
   "engines": {
     "node": ">=14.16"
   },
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
   "scripts": {
-    "build": "rm -rf ./build && tsc"
+    "build": "tsc",
+    "prepare": "npm run prepare"
   },
   "devDependencies": {
     "@types/node": "^18.7.14",
@@ -23,6 +26,9 @@
   },
   "keywords": [
     "utility",
-    "utilities"
+    "utilities",
+    "typescript",
+    "types",
+    "type"
   ]
 }
